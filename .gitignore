@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/java,eclipse,windows
-# Edit at https://www.toptal.com/developers/gitignore?templates=java,eclipse,windows
+# Created by https://www.toptal.com/developers/gitignore/api/eclipse,windows,java
+# Edit at https://www.toptal.com/developers/gitignore?templates=eclipse,windows,java
 
 ### Eclipse ###
 .metadata
@@ -70,6 +70,7 @@ local.properties
 ### Java ###
 # Compiled class file
 *.class
+*.classpath
 
 # Log file
 *.log
@@ -119,4 +120,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/java,eclipse,windows
+# End of https://www.toptal.com/developers/gitignore/api/eclipse,windows,java
