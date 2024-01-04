@@ -2,14 +2,14 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.ezen.ezenHR.persistance.CommentService_Mapper">
+<mapper namespace="com.ezen.ezenHR.persistance.CommuteService_Mapper">
 
-<insert id="commentInsert" parameterType="cv">
+<insert id="commentInsert" parameterType="cdto">
 insert into comment0803(cwriter,ccontents,bidx,midx) 
 values(#{cwriter},#{ccontents},#{bidx},#{midx})
 </insert>
 
-<select id="commentSelectAll" parameterType="int" resultType="cv" >
+<select id="commentSelectAll" parameterType="int" resultType="cdto" >
 select*from comment0803 where bidx = #{bidx} and delyn='N' order by cidx desc
 </select>
 

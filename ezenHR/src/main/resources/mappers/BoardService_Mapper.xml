@@ -4,7 +4,7 @@
 
 <mapper
 	namespace="com.ezen.ezenHR.persistance.BoardService_Mapper">
-
+<!-- 
 	<insert id="boardInsert" parameterType="bv">
 		<selectKey resultType="int" keyProperty="bidx" order="AFTER">
 			select
@@ -73,5 +73,5 @@
 		board0803(originbidx,depth,level_,subject,contents,writer,midx,ip,filename,pwd)
 		values(#{originbidx},#{depth}+1,#{level_}+1,#{subject},#{contents},#{writer},#{midx},#{ip},#{filename2},#{pwd})
 	</insert>
-
+ -->
 </mapper>

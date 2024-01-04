@@ -1,4 +1,4 @@
-package com.ezen.ezenHR;
+package com.ezen.ezenHR.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
