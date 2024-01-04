@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+ 
+<configuration> 
+<typeAliases>
+ <typeAlias alias="udto" type="com.ezen.ezenHR.domain.UserDto"/>
+ <typeAlias alias="cdto" type="com.ezen.ezenHR.domain.CommuteDto"/>
+ <typeAlias alias="ldto" type="com.ezen.ezenHR.domain.LeaveDto"/>
+ <typeAlias alias="ddto" type="com.ezen.ezenHR.domain.DepartmentDto"/>
+ <typeAlias alias="eadto" type="com.ezen.ezenHR.domain.ElectronicApprovalsDto"/>
+ <typeAlias alias="mdto" type="com.ezen.ezenHR.domain.MessageDto"/>
+</typeAliases>
+</configuration>
